@@ -8,11 +8,6 @@ RUN apt-get update \
 && apt-get install git -y \
 && apt-get clean
 
-RUN pip install --upgrade pip
-RUN pip install -r /src/requirements.txt
-
-# Set PYTHONPATH
-ENV PYTHONPATH="/src/:$PATH"
 ENV TZ="Europe/Rome"
 
 # Install fonts to generate charts with matplotlib and latex
@@ -22,5 +17,10 @@ RUN apt-get install -y fonts-dejavu
 RUN apt-get install -y ttf-mscorefonts-installer
 RUN apt-get install -y texlive-full
 RUN rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pip
+RUN pip install -r /src/requirements.txt
+ENV PYTHONPATH="/src/:$PATH"
+RUN pip freeze
 
 EXPOSE 8888
