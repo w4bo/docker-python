@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/w4bo/docker-python/compare/1.0.0...1.0.1) (2025-01-08)
+
+### Bug Fixes
+
+* add all library versions ([fb98406](https://github.com/w4bo/docker-python/commit/fb98406d232b02baa073f6310504bd87a2ada782))
+
 ## 1.0.0 (2025-01-08)
 
 ### Bug Fixes
