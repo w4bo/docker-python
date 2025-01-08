@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/w4bo/docker-python/compare/1.0.2...1.0.3) (2025-01-08)
+
+### Bug Fixes
+
+* update notebook ([9f87f6c](https://github.com/w4bo/docker-python/commit/9f87f6c160977cf30d97a8213770f09f26c9775e))
+
 ## [1.0.2](https://github.com/w4bo/docker-python/compare/1.0.1...1.0.2) (2025-01-08)
 
 ### Bug Fixes
