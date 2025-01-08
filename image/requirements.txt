@@ -2,7 +2,6 @@ flake8
 black
 requests==2.32.3
 SQLAlchemy==2.0.36
-ipykernel==5.2.1
 PyMySQL==0.9.3
 mysql-connector-python==8.0.20
 psycopg2-binary==2.9.10
