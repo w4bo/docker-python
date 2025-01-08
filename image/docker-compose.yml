@@ -1,5 +1,5 @@
 services:
-  oracledb:
+  python:
     init: true
     hostname: python
     container_name: python
