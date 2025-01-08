@@ -1,6 +1,5 @@
 const publishCmd = `
-git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md
-git push --force origin \${nextRelease.version}
+chmod +x *.sh; ./publish.sh \${nextRelease.version} w4bo python
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(
