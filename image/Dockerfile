@@ -1,8 +1,5 @@
 FROM python:3.12-slim
 
-RUN mkdir /src
-COPY ./requirements.txt  /src/
-
 RUN apt-get update \
 && apt-get install gcc -y \
 && apt-get install git -y \
@@ -19,8 +16,11 @@ RUN apt-get install -y texlive-full
 RUN rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip
-RUN pip install -r /src/requirements.txt
 ENV PYTHONPATH="/src/:$PATH"
 RUN pip freeze
+
+RUN mkdir /src
+COPY ./requirements.txt  /src/
+RUN pip install -r /src/requirements.txt
 
 EXPOSE 8888
