@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/w4bo/docker-python/compare/1.0.1...1.0.2) (2025-01-08)
+
+### Bug Fixes
+
+* add paretoset ([51a36d7](https://github.com/w4bo/docker-python/commit/51a36d7d20d5508e7cd71c8d3f2ded2cb0a40623))
+* add test notebook ([e78e85c](https://github.com/w4bo/docker-python/commit/e78e85ce74ba8f1fbd647926ffcce52112b305f8))
+
 ## [1.0.1](https://github.com/w4bo/docker-python/compare/1.0.0...1.0.1) (2025-01-08)
 
 ### Bug Fixes
