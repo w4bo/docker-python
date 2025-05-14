@@ -18,7 +18,7 @@ requests==2.32.3
 scikit-learn==1.6.1
 scipy==1.15.3
 seaborn==0.13.2
-SQLAlchemy==2.0.40
+SQLAlchemy==2.0.41
 xlrd==2.0.1
 xgboost==2.1.4
 yfinance==0.2.61
