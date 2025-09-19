@@ -1,5 +1,5 @@
-black==25.1.0
-black[jupyter]==25.1.0
+black==25.9.0
+black[jupyter]==25.9.0
 flake8==7.3.0
 flaml[automl]==2.3.6
 ipykernel==6.30.1
