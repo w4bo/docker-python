@@ -12,6 +12,10 @@ jobs:
       - name: Launch and test
         run: |
           cd image
+          wget https://raw.githubusercontent.com/apache/flink/02d30ace69dc18555a5085eccf70ee884e73a16e/tools/azure-pipelines/free_disk_space.sh
+          ls
+          chmod +x *.sh
+          ./free_disk_space.sh
           docker compose up
   release:
     needs:
