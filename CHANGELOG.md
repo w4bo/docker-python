@@ -1,3 +1,15 @@
+## [1.0.6](https://github.com/w4bo/docker-python/compare/1.0.5...1.0.6) (2025-10-21)
+
+### Dependency updates
+
+* **deps:** update dependency pymongo to v4.15.3 ([#145](https://github.com/w4bo/docker-python/issues/145)) ([c7d39e6](https://github.com/w4bo/docker-python/commit/c7d39e6cf8726e487edde88f1d602084ca6d1351))
+* **deps:** update dependency rapidfuzz to v3.14.1 ([#146](https://github.com/w4bo/docker-python/issues/146)) ([9db7463](https://github.com/w4bo/docker-python/commit/9db7463019d7c297d1e14891689bedc84d3dcf2d))
+* **deps:** update dependency sentence_transformers to v5.1.1 ([#147](https://github.com/w4bo/docker-python/issues/147)) ([a4edce4](https://github.com/w4bo/docker-python/commit/a4edce4738e3e56049b6f6a35f882656e431c47d))
+
+### Bug Fixes
+
+* add python-dotenv ([23107da](https://github.com/w4bo/docker-python/commit/23107da52b984226fa02ef85eef8220f034150f2))
+
 ## [1.0.5](https://github.com/w4bo/docker-python/compare/1.0.4...1.0.5) (2025-10-20)
 
 ### Dependency updates
