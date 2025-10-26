@@ -18,7 +18,7 @@ psycopg2-binary==2.9.11
 PyMySQL==1.1.2
 PyPDF2==3.0.1
 pymongo==4.15.3
-python-dotenv==1.1.1
+python-dotenv==1.2.1
 pyyaml==5.3.1
 pytz==2025.2
 rapidfuzz==3.14.1
