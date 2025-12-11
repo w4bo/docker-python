@@ -5,7 +5,7 @@ flake8==7.3.0
 flaml[automl]==2.3.6
 ipykernel==7.1.0
 jupyter==1.1.1
-matplotlib==3.10.7
+matplotlib==3.10.8
 mdpdf==0.0.18
 mysql-connector-python==9.5.0
 notebook==7.5.0
