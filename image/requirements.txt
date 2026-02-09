@@ -1,4 +1,4 @@
-acryl-datahub==1.4.0
+acryl-datahub==1.4.0.1
 black==26.1.0
 black[jupyter]==26.1.0
 flake8==7.3.0
