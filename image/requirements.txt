@@ -24,7 +24,7 @@ pytz==2025.2
 rapidfuzz==3.14.3
 requests==2.32.5
 scikit-learn==1.8.0
-scipy==1.17.0
+scipy==1.17.1
 seaborn==0.13.2
 sentence_transformers==5.2.3
 six==1.17.0
