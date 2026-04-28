@@ -2,7 +2,7 @@ acryl-datahub==1.5.0.14
 black==26.3.1
 black[jupyter]==26.3.1
 flake8==7.3.0
-flaml[automl]==2.5.0
+flaml[automl]==2.6.0
 html5lib==1.1
 ipykernel==7.2.0
 jupyter==1.1.1
