@@ -12,7 +12,7 @@ mysql-connector-python==9.7.0
 notebook==7.6.0
 openpyxl==3.1.5
 opencv-python==5.0.0.93
-pandas==3.0.4
+pandas==3.0.5
 paretoset==1.2.5
 pptx2md==2.0.6
 psycopg2-binary==2.9.12
