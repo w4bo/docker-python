@@ -35,5 +35,5 @@ tqdm==4.68.4
 ultralytics==8.4.178
 urllib3==2.8.0
 xlrd==2.0.2
-xgboost==2.1.4
+xgboost==3.4.1
 yfinance==1.5.2
