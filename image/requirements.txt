@@ -32,7 +32,7 @@ six==1.17.0
 SQLAlchemy==2.1.6
 tabulate==0.10.0
 tqdm==4.70.1
-ultralytics==8.4.192
+ultralytics==8.4.193
 urllib3==2.8.0
 xlrd==2.0.2
 xgboost==2.1.4
