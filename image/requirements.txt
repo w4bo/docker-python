@@ -9,7 +9,7 @@ jupyter==1.1.1
 matplotlib==3.11.2
 mdpdf==0.0.18
 mysql-connector-python==26.10.0
-notebook==7.6.3
+notebook==7.6.4
 openpyxl==3.1.5
 opencv-python==5.0.0.93
 pandas==3.1.0
